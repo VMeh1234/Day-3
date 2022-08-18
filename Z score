@@ -1,0 +1,13 @@
+from numpy import random
+import numpy as np
+x = random.normal(size=(2, 3))
+
+print(x)
+a = np.array(x)
+a
+c  = np.mean(a)
+c
+d = np.std(a)
+d
+z_score = (a-c)/d
+z_score
