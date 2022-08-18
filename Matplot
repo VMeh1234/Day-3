@@ -1,0 +1,80 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
+y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
+
+plt.title("Speed of Cars")
+plt.xlabel("Average Speed")
+plt.ylabel("Top Speed")
+plt.plot(x, y, marker = 'o')
+
+plt.grid()
+
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])
+y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])
+plt.xlabel("No. of Students")
+plt.ylabel("Marks")
+plt.title("Marks of Students")
+plt.grid()
+plt.scatter(x, y)
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+
+plt.bar(x,y)
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = pd.DataFrame(random.normal(loc = 50, scale = 1, size = 10000))
+plt.hist(x)
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+y = np.array([25,10,5,5,5,10,5,25,5])
+
+plt.pie(y)
+plt.show()
+
+import numpy as np
+ages = [5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31]
+x = np.percentile(ages,90)
+print (x)
+
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.random.uniform(2.0, 10.0, 250)
+plt.hist(x)
+plt.show()
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.random.normal(5.0, 1.0, 100000)
+
+plt.hist(x, 100)
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+age_x=[25,26,27,29,33,32,35,28,35,39]
+
+ypoints = np.array([25,26,27,29,33,32,35,28,35,39])
+
+
+
+plt.plot(ypoints, linestyle = 'dotted')
+plt.show()
